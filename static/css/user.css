@@ -49,7 +49,7 @@
 
 .list td {
     border: 1px solid #9A1010;
-    padding: .3em 1em;
+    padding: .3em .3em;
 }
 
 .list a {
@@ -69,7 +69,12 @@
 }
 
 .table-game-name {
-    width: 100%;
+    width: 85%;
+}
+
+.table-rating {
+    width: 5%;
+    text-align: center;
 }
 
 .table-rating {

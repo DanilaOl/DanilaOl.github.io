@@ -11,6 +11,11 @@
     margin: 0 auto;
 }
 
+.game-info {
+    display: flex;
+    flex-direction: column;
+}
+
 .game-info p {
     line-height: 1.5em;
 }
@@ -231,8 +236,12 @@ textarea {
         grid-template-columns: 1fr;
     }
 
+    .game-info {
+        align-items: center;
+    }
+
     .game-wrapper img {
-        width: 60%;
+        width: 80%;
     }
 
     .addto-dropbutton {
