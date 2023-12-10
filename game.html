@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyberpunk 2077</title>
+    <script src="https://kit.fontawesome.com/63cd46c35b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/game.css">
+    <script src="static/js/burger.js"></script>
+    <script src="static/js/addToList.js"></script>
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="index.html" id="logo">GK</a>
+        </div>
+
+        <div class="search-container">
+            <input type="search" name="search-content" placeholder="Поиск..." class="search" required>
+            <input type="submit" value="&#xf002" class="search fa-solid fa-magnifying-glass">
+        </div>
+        <div class="menu">
+            <div class="menu-dropbutton">
+                <span>Danila</span>
+                <img src="static/img/witcher-3-logo.png" alt="Avatar">
+            </div>
+            <div id="menuContent" class="menu-dropcontent">
+                <a href="user.html">Профиль</a>
+                <a href="register.html">Выход</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="game-wrapper">
+            <img src="static/img/posters/poster3.png" alt="">
+            <div class="game-info">
+                <p id="title">Cyberpunk 2077</p>
+                <p>Дата выхода: 9 декабря 2020</p>
+                <p>Разработчик: <a href="studio.html">CD Projekt RED</a></p>
+                <p>Издатель: CD Projekt RED</p>
+                <p>Жанры: Action-RPG, Шутер</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/8X2kIfS6fb8?si=nisWV4rNH-5SFjgf"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="rating">
+                <p>Рейтинг:6.67/10</p>
+                <div class="addto">
+                    <div onclick="addToToggle()" id="addtoButton" class="addto-dropbutton">
+                        <span id="list-type">Добавить в </span>
+                    </div>
+                    <form method="GET" action="#" id="addtoContent" class="addto-dropcontent">
+                        <button name="type" value="planned">Запланировано</button>
+                        <button name="type" value="completed">Пройдено</button>
+                        <button name="type" value="playing">Играю</button>
+                        <button name="type" value="postponed">Отложено</button>
+                        <button name="type" value="delete">Удалить из списка</button>
+                    </form>
+                </div>
+                <span>Оценка:</span>
+                <div class="rating-drop">
+                    <div onclick="ratingToggle()" id="ratingButton" class="rating-dropbutton">
+                        <span>0 </span>
+                    </div>
+                    <form method="GET" action="#" id="ratingContent" class="rating-dropcontent">
+                        <button name="rating" value="1">1</button>
+                        <button name="rating" value="2">2</button>
+                        <button name="rating" value="3">3</button>
+                        <button name="rating" value="4">4</button>
+                        <button name="rating" value="5">5</button>
+                        <button name="rating" value="6">6</button>
+                        <button name="rating" value="7">7</button>
+                        <button name="rating" value="8">8</button>
+                        <button name="rating" value="9">9</button>
+                        <button name="rating" value="10">10</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <p class="description">Примерьте на себя роль киберпанка Ви и приложите все усилия, чтобы сделать себе имя среди
+            наёмников мегаполиса Найт-Сити, где власть, роскошь и модификации тела ценятся выше всего. Здесь рождаются
+            легенды. Какую сложат о вас? Вам предстоит взять заказ, который перевернёт вашу жизнь. Украдите уникальное
+            устройство, позволяющее обрести бессмертие, и станьте легендой, исследуя огромный открытый мир, где ваши
+            поступки влияют на ход сюжета и всё, что вас окружает. Выполняйте задания от самых разных жителей Найт-Сити,
+            чтобы превратиться из уличного киберпанка в наёмника высшей лиги и раскрыть тайну бесценного устройства, за
+            которым идёт настоящая охота.</p>
+        <p class="comment-title">Отзывы</p>
+        <div class="comment-wrapper">
+            <div class="comment">
+                <a href="user.html" class="comment-name">Welalei</a>
+                <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquam iaculis
+                    quam. Nulla hendrerit eget dui sed sodales. Nullam a nisl sit amet magna dapibus hendrerit at ac
+                    risus. Praesent condimentum porta ante.</p>
+            </div>
+
+            <div class="comment">
+                <a href="user.html" class="comment-name">Chiffe</a>
+                <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis varius
+                    neque. Nullam eget hendrerit augue. Phasellus quis nisi nec massa fringilla sodales. Aenean tempor
+                    orci eget nulla molestie aliquet.</p>
+            </div>
+
+            <div class="comment">
+                <a href="user.html" class="comment-name">BennySpace</a>
+                <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus iaculis elit
+                    sollicitudin sapien eleifend, non venenatis tellus tempor. Ut ut tortor feugiat, faucibus mauris at,
+                    efficitur magna.</p>
+            </div>
+
+            <div class="comment">
+                <a href="user.html" class="comment-name">DanilaOl</a>
+                <p class="comment-text">Отлично</p>
+            </div>
+
+        </div>
+        <form method="POST" class="comment-input">
+            <textarea name="comment-text" placeholder="Ваш отзыв" maxlength="500" required></textarea>
+            <button class="send-comment">Отправить</button>
+        </form>
+    </main>
+    <footer>
+        <p class="footer-logo">GK</p>
+        <div class="footer-contacts">
+            <p>Контакты</p>
+            <p>+7(999)999-99-99</p>
+            <p>danila@olyanin.ru</p>
+            <p>г. Москва, проспект Вернадского, 78с4</p>
+            <p>©Олянин Данила 2023</p>
+        </div>
+        <div class="footer-links">
+            <p>Ссылки</p>
+            <a href="index.html">Главная</a>
+            <a href="catalog.html">Каталог</a>
+            <a href="register.html">Регистрация</a>
+        </div>
+    </footer>
+</body>
+
+</html>

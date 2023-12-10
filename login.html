@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/63cd46c35b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/login.css">
+    <script src="static/js/centralize.js"></script>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html" id="logo">GK</a>
+        </div>
+
+        <div class="search-container">
+            <input type="search" name="search-content" placeholder="Поиск..." class="search" required>
+            <input type="submit" value="&#xf002" class="search fa-solid fa-magnifying-glass">
+        </div>
+        <div class="menu">
+            <div class="menu-dropbutton">
+                <a href="login.html">Войти</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <form method="POST">
+            <label>E-mail</label>
+            <input type="email" maxlength="30" name="email" placeholder="name@mail.com" required><br>
+            <label>Пароль</label>
+            <input type="password" minlength="8" maxlength="50" name="password" placeholder="8-50 символов" required><br>
+            <button type="submit">Войти</button>
+            <a href="register.html">Зарегистрироваться</a>
+        </form>
+    </main>
+    <footer>
+        <p class="footer-logo">GK</p>
+        <div class="footer-contacts">
+            <p>Контакты</p>
+            <p>+7(999)999-99-99</p>
+            <p>danila@olyanin.ru</p>
+            <p>г. Москва, проспект Вернадского, 78с4</p>
+            <p>©Олянин Данила 2023</p>
+        </div>
+        <div class="footer-links">
+            <p>Ссылки</p>
+            <a href="index.html">Главная</a>
+            <a href="catalog.html">Каталог</a>
+            <a href="register.html">Регистрация</a>
+        </div>
+    </footer>
+</body>
+</html>

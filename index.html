@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <script src="https://kit.fontawesome.com/63cd46c35b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/game.css">
+    <link rel="stylesheet" href="static/css/index.css">
+    <script src="static/js/burger.js"></script>
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="index.html" id="logo">GK</a>
+        </div>
+        <div class="search-container">
+            <input type="search" name="search-content" placeholder="Поиск..." class="search" required>
+            <input type="submit" value="&#xf002" class="search fa-solid fa-magnifying-glass">
+        </div>
+        <div class="menu">
+            <div class="menu-dropbutton">
+                <span>Danila</span>
+                <img src="static/img/witcher-3-logo.png" alt="Avatar">
+            </div>
+            <div id="menuContent" class="menu-dropcontent">
+                <a href="user.html">Профиль</a>
+                <a href="register.html">Выход</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1>Видеоигры</h1>
+        <p class="about">Данный сайт - отличный инструмент, который поможет вам структурировать вашу библиотеку
+            видеоигр. У вас есть
+            возможность добавлять игры в один из списков: запланировано, играю, пройдено, отложено. Так же вы можете
+            ставить оценки пройденным играм и узнать основную информацию о них и их создателях.</p>
+        <div class="index-card-wrapper">
+            <div class="index-card">Для поиска игр, посетите наш <a href="catalog.html">каталог</a></div>
+            <div class="index-card">Для просмотра своей библиотеки - посетите <a href="user.html">профиль</a></div>
+            <div class="index-card">Для использования сайта вам потребуется <a
+                    href="register.html">Зарегистрироваться</a> или <a href="login.html">войти</a></div>
+        </div>
+        <p class="comment-title">Форум</p>
+        <div class="comment-wrapper">
+
+            <div class="comment">
+                <a href="user.html" class="comment-name">BennySpace</a>
+                <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquam iaculis
+                    quam. Nulla hendrerit eget dui sed sodales. Nullam a nisl sit amet magna dapibus hendrerit at ac
+                    risus. Praesent condimentum porta ante.</p>
+            </div>
+
+            <div class="comment">
+                <a href="user.html" class="comment-name">Chiffe</a>
+                <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis varius
+                    neque. Nullam eget hendrerit augue. Phasellus quis nisi nec massa fringilla sodales. Aenean tempor
+                    orci eget nulla molestie aliquet.</p>
+            </div>
+
+            <div class="comment">
+                <a href="user.html" class="comment-name">Welalei</a>
+                <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus iaculis elit
+                    sollicitudin sapien eleifend, non venenatis tellus tempor. Ut ut tortor feugiat, faucibus mauris at,
+                    efficitur magna.</p>
+            </div>
+
+            <div class="comment">
+                <a href="user.html" class="comment-name">DanilaOl</a>
+                <p class="comment-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi quod excepturi
+                    cum modi eveniet? Unde quas, dolor cupiditate molestias quibusdam debitis, error expedita in
+                    sapiente aspernatur nostrum corrupti suscipit aut!</p>
+            </div>
+
+        </div>
+        <form method="POST" class="comment-input">
+            <textarea name="comment-text" placeholder="Ваше сообщение" maxlength="500" required></textarea>
+            <button class="send-comment">Отправить</button>
+        </form>
+    </main>
+    <footer>
+        <p class="footer-logo">GK</p>
+        <div class="footer-contacts">
+            <p>Контакты</p>
+            <p>+7(999)999-99-99</p>
+            <p>danila@olyanin.ru</p>
+            <p>г. Москва, проспект Вернадского, 78с4</p>
+            <p>©Олянин Данила 2023</p>
+        </div>
+        <div class="footer-links">
+            <p>Ссылки</p>
+            <a href="index.html">Главная</a>
+            <a href="catalog.html">Каталог</a>
+            <a href="register.html">Регистрация</a>
+        </div>
+
+    </footer>
+</body>
+
+</html>

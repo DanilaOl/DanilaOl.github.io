@@ -1,0 +1,25 @@
+.about {
+    margin: 2em 0;
+    font-size: 1.2em;
+}
+
+.index-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    justify-content: center;
+    margin: 2em auto;
+}
+
+.index-card {
+    border: 2px solid var(--accent-color);
+    font-size: 1.5em;
+    padding: .5em;
+    border-radius: 10px;
+}
+
+@media (max-width: 700px) {
+    .index-card-wrapper {
+        grid-template-columns: 1fr;
+    }
+}
